@@ -65,7 +65,7 @@ body{
 .line1{
   width: 100%;
   height: 16px;
-  background: rgba(0,0,0,0.4300000071525574);
+  background: rgba(0,0,0,0.43);
   opacity: 1;
   position: absolute;
   top: 455px;
@@ -74,7 +74,7 @@ body{
 .line2 {
   width: 100%;
   height: 16px;
-  background: rgba(0,0,0,0.4300000071525574);
+  background: rgba(0,0,0,0.43);
   opacity: 1;
   position: absolute;
   top: 730px;
@@ -88,6 +88,7 @@ body{
   font-weight: normal;
   font-size: 24px;
   opacity: 1;
+  top:200px;
   text-align: center;
 }
 .container {
@@ -101,7 +102,7 @@ body{
   width: 167px;
   color: rgba(249,242,0,1);
   position: absolute;
-  top: 760px;
+  top: 785px;
 
   font-family: Ultra;
   font-size: 15px;
