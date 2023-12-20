@@ -10,7 +10,7 @@
 <body>
 
     <div class="head-bg">
-       <span class="title"><button onclick="sound()" class="button-3" role="button">Click to play Blank Space by Taylor Swift</button></span>
+       <span class="title"><button onclick="audio.play()" class="button-3">Click to play Blank Space by Taylor Swift</button></span>
     </div>
     <div class="textboxthing">
     <p id="time" class="text"></p>
@@ -27,10 +27,8 @@
 
 
     <script>
-     function sound(){
-     var snd = new Audio('tineu.mp3')//wav is also supported
-     snd.play()//plays the sound
-    }
+        var audio = new Audio('tineu.mp3');
+        
         function updateDateTime() {
             const optionsTime = {
                 timeZone: 'America/Guadeloupe',
