@@ -19,17 +19,6 @@ body{
   position: relative;
   overflow: hidden;
 }
-.title {
-  width: 100%;
-  color: rgba(249,242,0,1);
-  position: absolute;
-  top: 52px;
-  font-family: Ultra;
-  font-weight: normal;
-  font-size: 40px;
-  opacity: 1;
-  text-align: center;
-}
 /* CSS */
 .button-3 {
   appearance: none;
@@ -80,6 +69,17 @@ body{
 .button-3:active {
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+.title {
+  width: 100%;
+  color: rgba(249,242,0,1);
+  position: absolute;
+  top: 52px;
+  font-family: Ultra;
+  font-weight: normal;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
 }
 .textboxthing{
   height:50%;
